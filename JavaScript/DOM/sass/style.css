@@ -1,0 +1,67 @@
+header {
+  height: 80px;
+  width: 100%;
+  position: relative;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header nav ul {
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: -15px;
+  background-color: blueviolet;
+  display: block;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translate(-500px);
+          transform: translate(-500px);
+}
+
+header nav ul li {
+  margin-top: 60px;
+  font-size: 28px;
+  list-style: none;
+}
+
+header button {
+  width: 40px;
+  height: 30px;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  background: none;
+  border: 1px dotted black;
+}
+
+header button i {
+  font-size: 23px;
+}
+
+.mynav ul {
+  width: 300px;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: -15px;
+  background-color: blueviolet;
+  display: block;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transform: translate(0px);
+          transform: translate(0px);
+}
+
+.mynav ul li {
+  margin-top: 50px;
+}
+/*# sourceMappingURL=style.css.map */

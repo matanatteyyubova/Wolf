@@ -1,0 +1,58 @@
+header{
+    height: 80px;
+    width: 100%;
+    // background-color: aqua;
+    position: relative;
+    
+    nav{
+        display: flex;
+        justify-content: center;
+     
+    
+        ul{
+            width: 300px;
+            height: 100vh;
+            position: absolute;
+            left: 0;
+            top: -15px;
+            background-color: blueviolet;
+            display: block;
+           transition: 1s;
+           transform: translate(-500px);
+            li{
+            margin-top: 60px;
+            font-size: 28px;
+            list-style: none;
+            }
+        }
+    }
+    button{
+        width: 40px;
+        height: 30px;
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        background: none;
+        border: 1px dotted black;
+        i{
+            font-size: 23px;
+        }
+    }
+}
+
+.mynav{
+    ul{
+        width: 300px;
+        height: 100vh;
+        position: absolute;
+        right: 0;
+        top: -15px;
+        background-color: blueviolet;
+        display: block;
+       transition: 1s;
+       transform: translate(0px);
+        li{
+        margin-top: 50px;
+        }
+    }
+}
